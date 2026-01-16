@@ -82,7 +82,9 @@ If you like clean UI and cold vibes — drop a ⭐
 **Nazmus Sakib**
 
 Department of Computer Science & Engineering
+
 Jagannath University, Dhaka
+
 Frontend Developer in the making 🚀
 
 ---

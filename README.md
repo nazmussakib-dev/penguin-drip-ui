@@ -1,5 +1,3 @@
----
-
 # 🐧 Penguin Drip UI
 
 Winter just got fashionable.

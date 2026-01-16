@@ -80,6 +80,7 @@ If you like clean UI and cold vibes — drop a ⭐
 ## 👤 Author
 
 **Nazmus Sakib**
+
 Department of Computer Science & Engineering
 Jagannath University, Dhaka
 Frontend Developer in the making 🚀

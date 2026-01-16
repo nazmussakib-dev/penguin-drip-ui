@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <title>Penguin Fashion</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Google Fonts: Bebas Neue, Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="bg-[#FFFBF0] px-4 md:px-32 py-20">
+      <!-- Navigation Bar -->
+      <nav class="flex justify-between items-center mb-12">
+        <div>
+          <img src="icons/logo.png" alt="logo" class="max-w-2xs">
+        </div>
+        <div class="lg:hidden">
+          <img src="icons/menu.png" alt="menu-icon" class="size-8">
+        </div>
+        <div>
+          <ul class="hidden lg:flex list-none gap-8">
+            <li><a href="#" class="no-underline">Home</a></li>
+            <li><a href="" class="no-underline">Products</a></li>
+            <li><a href="" class="no-underline">About Us</a></li>
+            <li><a href="" class="no-underline">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- Banner Section -->
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="space-y-3">
+          <h1 class="text-7xl uppercase bebas-neue-regular">
+            <span class="text-[#FABE4C]">Be the Penguin</span> <br />
+            <span class="text-[#363958]">of Winter</span>
+          </h1>
+          <p>
+            Discover the latest trends in penguin fashion and stay warm this
+            winter season with our exclusive collection.
+          </p>
+          <button
+            class="py-4 px-9 rounded-xl uppercase text-white font-medium bg-linear-to-r from-[#A4BC46] to-[#85A019]"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6 inline"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+              />
+            </svg>
+
+            Buy Now
+          </button>
+        </div>
+        <div>
+          <img src="images/model.png" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4">
+      <!-- Women Jackets Section -->
+      <section class="py-12">
+        <h3 class="text-5xl bebas-neue-regular md:text-left lg:text-left text-center">Women Jackets</h3>
+      </section>
+      <!-- Jackets Container -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 broboto-regular">
+        <!-- Jacket-1 -->
+        <div class="space-y-3 bg bg-[#FFFFFF] p-6 rounded-2xl drop-shadow-lg">
+          <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+            <img src="images/jacket-1.png" alt="" />
+          </div>
+          <h4 class="text-2xl font-bold">Yellow Coat Jacket</h4>
+          <p>
+            Stay cozy and stylish with this vibrant yellow coat jacket, perfect
+            for brightening up chilly winter days.
+          </p>
+          <div class="flex justify-between">
+            <h3 class="text-4xl font-black text-[#FABE4C]">$234</h3>
+            <button
+              class="py-4 px-9 rounded-xl uppercase text-white font-medium bg-linear-to-r from-[#A4BC46] to-[#85A019]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 inline"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <!-- Jacket-2 -->
+        <div class="space-y-3 bg-[#FFFFFF] p-6 rounded-2xl drop-shadow-lg">
+          <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+            <img src="images/jacket-2.png" alt="" />
+          </div>
+          <h4 class="text-2xl font-bold">Ladies Jacket</h4>
+          <p>
+            Embrace elegance and warmth with this stylish ladies jacket, designed
+            to keep you comfortable during the coldest months.
+          </p>
+          <div class="flex justify-between">
+            <h3 class="text-4xl font-black text-[#FABE4C]">$304</h3>
+            <button
+              class="py-4 px-9 rounded-xl uppercase text-white font-medium bg-linear-to-r from-[#A4BC46] to-[#85A019]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 inline"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <!-- Jacket-3 -->
+        <div class="space-y-3 bg-[#FFFFFF] p-6 rounded-2xl drop-shadow-lg ">
+          <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+            <img src="images/jacket-3.png" alt="" />
+          </div>
+          <h4 class="text-2xl font-bold">Warm Leather Jacket</h4>
+          <p>
+            This warm leather jacket combines fashion and function, providing
+            excellent insulation while making a bold style statement.
+          </p>
+          <div class="flex justify-between">
+            <h3 class="text-4xl font-black text-[#FABE4C]">$184</h3>
+            <button
+              class="py-4 px-9 rounded-xl uppercase text-white font-medium bg-linear-to-r from-[#A4BC46] to-[#85A019]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 inline"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Men Jackets Section -->
+      <section class="py-12 my-12">
+        <h3 class="text-5xl bebas-neue-regular md:text-left lg:text-left text-center">Men Jackets</h3>
+      </section>
+      <!-- Jackets Container -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 broboto-regular">
+        <!-- Jacket-4 -->
+        <div class="space-y-3 bg bg-[#FFFFFF] p-6 rounded-2xl drop-shadow-lg">
+          <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+            <img src="images/jacket-4.png" alt="" />
+          </div>
+          <h4 class="text-2xl font-bold">Snowboard Jacket Men</h4>
+          <p>
+            Conquer the slopes in style with this high-performance snowboard jacket, designed to 
+            keep you warm and dry during your winter adventures.
+          </p>
+          <div class="flex justify-between">
+            <h3 class="text-4xl font-black text-[#FABE4C]">$243</h3>
+            <button
+              class="py-4 px-9 rounded-xl uppercase text-white font-medium bg-linear-to-r from-[#A4BC46] to-[#85A019]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 inline"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <!-- Jacket-5 -->
+        <div class="space-y-3 bg-[#FFFFFF] p-6 rounded-2xl drop-shadow-lg">
+          <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+            <img src="images/jacket-5.png" alt="" />
+          </div>
+          <h4 class="text-2xl font-bold">Men Leather Jacket</h4>
+          <p>
+            Elevate your wardrobe with this premium men’s leather jacket, crafted for durability and timeless style. Perfect for any occasion, it’s a must-have for the modern man.
+          </p>
+          <div class="flex justify-between">
+            <h3 class="text-4xl font-black text-[#FABE4C]">$204</h3>
+            <button
+              class="py-4 px-9 rounded-xl uppercase text-white font-medium bg-linear-to-r from-[#A4BC46] to-[#85A019]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 inline"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+
+              Buy Now
+            </button>
+          </div>
+        </div>
+        <!-- Jacket-6 -->
+        <div class="space-y-3 bg-[#FFFFFF] p-6 rounded-2xl drop-shadow-lg ">
+          <div class="bg-[#F1F1F1] p-5 rounded-2xl">
+            <img src="images/jacket-6.png" alt="" />
+          </div>
+          <h4 class="text-2xl font-bold">Men Casual Jacket</h4>
+          <p>
+            This men’s casual jacket is the perfect blend of comfort and style, ideal for everyday wear
+            during the colder months.
+          </p>
+          <div class="flex justify-between">
+            <h3 class="text-4xl font-black text-[#FABE4C]">$284</h3>
+            <button
+              class="py-4 px-9 rounded-xl uppercase text-white font-medium bg-linear-to-r from-[#A4BC46] to-[#85A019]"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="size-6 inline"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+                />
+              </svg>
+
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Perfect Fit Section -->
+       <section class="my-12 flex gap-16 justify-center items-center flex-col-reverse lg:my-25 lg:flex-row">
+        <!-- cards container -->
+        <div>
+          <!-- card-1 -->
+          <div class="flex gap-6 items-center bg-[#FFFFFF] p-8 rounded-2xl drop-shadow-lg">
+            <img src="icons/house.png" alt="Home" class="size-20"/>
+            <div>
+              <h3 class="text-2xl roboto-bold">Find Your Perfect Fit</h3>
+              <p class="roboto-regular">
+                Use our size guide to find the perfect fit for your new winter jacket. 
+                We offer a range of sizes to ensure comfort and style for everyone.
+              </p>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="flex gap-6 items-center bg-[#FFFFFF] p-8 rounded-2xl drop-shadow-lg my-4">
+            <img src="icons/box.png" alt="box" class="size-20"/>
+            <div>
+              <h3 class="text-2xl roboto-bold">Free Exchanges</h3>
+              <p class="roboto-regular">
+                Not quite the right fit? No worries! We offer free exchanges on all 
+                our winter jackets to ensure you find the perfect one.
+              </p>
+            </div>
+          </div>
+          <!-- card-3 -->
+          <div class="flex gap-6 items-center bg-[#FFFFFF] p-8 rounded-2xl drop-shadow-lg">
+            <img src="icons/question.png" alt="Home" class="size-20"/>
+            <div>
+              <h3 class="text-2xl roboto-bold">24/7 Hotline</h3>
+              <p class="roboto-regular">
+                Have questions about sizing or need assistance? Our 24/7 hotline is 
+                here to help you find the perfect winter jacket.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Image -->
+         <div>
+          <img src="images/shopping.png" alt="">
+         </div>
+       </section>
+    </main>
+
+    <footer>
+      <div class="bg-[#FFFBF0] text-center py-10 px-4">
+        <img src="icons/logo.png" alt="logo" class="max-w-xs mx-auto mb-2">
+        &copy; 2024 Penguin Fashion. All rights reserved.
+      </div>
+      <div class=" flex justify-center items-center gap-6 py-6 bg-[#363958]">
+        <a href="#"><img src="icons/twitter.png" alt="twitter logo"></a>
+        <a href="#"><img src="icons/facebook.png" alt="facebook logo" ></a>
+        <a href="#"><img src="icons/instagram.png" alt="instagram logo"></a>
+        <a href="#"><img src="icons/pinterest.png" alt="pinterest logo"></a>
+      </div>
+    </footer>
+  </body>
+</html>

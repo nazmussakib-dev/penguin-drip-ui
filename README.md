@@ -71,8 +71,11 @@ open index.html
 ## 🧊 Final Words
 
 Built for winter.
+
 Designed for drip.
+
 Shipped with style.
+
 If you like clean UI and cold vibes — drop a ⭐
 
 ---
